@@ -1,0 +1,67 @@
+button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	height: 35px;
+	length: 30px;
+	background-color:Teal;
+}
+
+body {
+	background-color: rgb(30,30,30);
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: Orange;
+  display: flex; 
+}
+nav ul {
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+}
+nav li {
+  flex: 1; 
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block; 
+  text-align: center; 
+}
+nav a:hover {
+  color: Blue;
+}
+nav a.active {
+  color: Green;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+img {
+  border: 5px solid #555;
+  background-color: black;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.Main_Heading {
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-decoration: bold;
+}
+
+.Sub_Heading {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+

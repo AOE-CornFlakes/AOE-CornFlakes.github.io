@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!-- This is the first thing I wrote (even before the index)
+and it is a mess. I am sorry for anyone in advance who is reading this.
+I tried my best to clean it up a bit. But it works, I think? -->
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Hoxxes Catalog: Beastiary</title>
+   <link rel="stylesheet" type="text/css" href="main.css" id="csslink">
+	<script>
+		function toggleCSS() {
+          
+          var currentCSS = document.getElementById('csslink');
+
+          
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+	</script>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Beastiary.html" class="active">Beastiary</a></li>
+			<li><a href="Locations.html">Locations</a></li>
+		</ul>
+	</nav>
+	<button onclick="toggleCSS()" style="cursor:pointer">Alternate Style</button>
+</header>
+<div class="Main_Heading">
+<h1 style="text-align:center">The Beastiary</h1>
+</div>
+
+<p>The bugs, grubs and gribbles of Hoxxes IV can be catagorized as such:</p>
+<table>
+	<tr>
+		<th>Creature type</th>
+		<th>Notable features</th>
+		<th>Hostile?</th>
+	</tr> 
+	<tr> 
+		<td>Glyphids</td>
+		<td>Hard top covering carapace. Soft underbellies. Sharp teeth.
+		similar to arachnids, can climb any surface.</td>
+		<td>Yes</td>
+	</tr>
+	<tr> 
+		<td>Mactera Aliens</td>
+		<td>Flying Insectoids. Most can spit acid. Have an exposed glands that
+		contains their acid/goo.</td>
+		<td>Yes</td>
+	</tr>
+	<tr> 
+		<td>Naeodcytes</td>
+		<td> Mostly comprised of jellyfish-like creatures that produce electric shocks. 
+		Very vulnerable but always come in swarms.</td>
+		<td>Mostly</td>
+	</tr>
+	<tr> 
+		<td>Other</td>
+		<td>Catch-all term used to describe other local wildlife that doesn't
+			fall under any other species catagory.</td>
+		<td>Sometimes</td>
+	</tr>
+</table>
+<!-- Holly crap learn how to properly indent -->
+	<div class="Sub_Heading">
+	<h2 style= "text-align:center">Glyphids</h2>
+	</div>
+	<p style= "text-align:center">Glyphids are the creatures you will encounter the most frequently on your ventures. 
+	They come in many different sizes, ranging from the pesky swarmer to the mighty dreadnaught. 
+	When it comes to fighting most Glyphids, just keep your distance and try to shoot at their soft underbellies. 
+	If their carapace takes enough damage, you can crack through to reveal its soft skin; however, 
+	this process does take more time, and leaves you susceptible to being overwhelmed. </p>
+	
+	<div class="Sub_Heading">
+	<h3 style= "text-align:center">Glyphid Grunts</h3>
+	</div>
+	<p style= "text-align:center">Currently we know of three different variations of the Glyphid grunt. 
+	These are the Glyphids you are most likely to encounter as you tunnel through the depths of Hoxxes. 
+	They typically come in swarms, so as always, try to keep as much distance from you and the swarm 
+	of teeth eagerly awaiting to get at you. </p>
+	
+	<div class="Sub_Heading">
+	<h4>Normal Glyhpid Grunts</h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/1/10/Glyphid_grunt.png/revision/latest?cb=20190315181221" width="400" height="300" alt="Grunt">
+	<p>The Glyphid Grunt is by far the most common type of Glyphid encountered on Hoxxes, usually encountered in roving packs. Small (relatively speaking) and agile, it is a versatile and aggressive hunter that remains exceptionally hostile to any encroachment on their territory. </p>
+	<div class="Sub_Heading">
+	<h4>Glyphid Grunt Slashers</h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/f/fd/Glyphid_Slasher.png/revision/latest?cb=20190317135730" width="400" height="300" alt="Grunt Slasher">
+	<p>Variations of grunts that possess sharper teeth and longer, sharper claws than most grunts. Easily able to strike through your armor. </p>
+	<div class="Sub_Heading">
+	<h4>Glyphid Grunt Guards</h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/9/96/Glyphid_Guard.png/revision/latest/scale-to-width-down/700?cb=20190317135635" width="400" height="300" alt="Grunt Guard">
+	
+	<div class="Sub_Heading">
+	<h3 style= "text-align:center"> Glyphid Spitter variations</h3>
+	</div>
+	<p style= "text-align:center">“Spitter glyphids” usually try and climb on walls and spit substances at you from afar 
+	to help support the swarm. They are typically quite frail, so a 
+	few well placed shots can dispatch of them quite quickly. Not that they should be ignored,
+	Spitters are often more dangerous than the swarms of grunts coming to attack you due to 
+	their ability to strike you from afar. </p>
+	
+	<div class="Sub_Heading">
+	<h4>Glyphid Web spitters</h4>
+	</div>
+	<img src ="https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/a/a3/Glyphid_spitter.png/revision/latest/scale-to-width-down/120?cb=20171115124203" width="400" height="300" alt="Pixelated Web Spitter">
+	<p>Purple glyphids that spit webs at you to slow you down. Typically more of a nuisance,
+	but can be dangerous if you are trying to run from an oncomming swarm.</p>
+	<div class="Sub_Heading">
+	<h4>Acid Spitters</h4> 
+	</div>
+	<img src="https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/6/61/Glyphid_acid_spitter.png/revision/latest/scale-to-width-down/700?cb=20181102070950" width="400" height="300" alt="Acid spitter">
+	<p>Red glyphids that spit acid at you. Highly dangerous and a high priority.</p> 
+	
+	<div class="Sub_Heading">
+	<h3 style= "text-align:center">Glyphid Praetorians</h3> 
+	</div>
+	<p style= "text-align:center">Large, green, and have a large, front facing carapace. They have the ability to spew green 
+	acid from their mouths and emit a noxious but flammable green cloud upon death. All praetorians have a noticeable, 
+	green bulb on their backside where they store their energy. They are slow moving, 
+	so it is relatively easy to get around them and attack their backside; however, 
+	this does not account for the swarms of grunts that usually accompany them.</p>
+	<p style= "text-align:center"> <em>~~NOTE: The photos presented to not show the creatures backside. This is because our photographers sent to take
+	photos of the creatures where eaten. Use your imagination while we get another photgraphy crew to update this catalog~~</em></p>
+	<div class="Sub_Heading">
+	<h4>Standard Glyphid Praetorians</h4> 
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/3/3b/Glyphid_Praetorian.png/revision/latest/scale-to-width-down/699?cb=20171115124247"  width="400" height="300" alt="Standard Praetorian">
+	<p>Your standard Praetorian. Slow and tough, typically guarded by other glyphids</p>
+	
+	<div class="Sub_Heading">
+	<h4>Glyphid Oppressors</h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/3/37/Glyphid_Oppressor.png/revision/latest?cb=20200120172551" width="400" height="300" alt="Oppressor">
+	<p>Mutations of standard praetorians. Larger, slower but much tougher. Their
+	bulb is less exposed as nearly their entire body is covered in a strong, near 
+	impenetrable carapace, making any attacks not focused on their bulb hardly noticeable. 
+	Should be a high priority on any mission if you are capable of safely maneuvering around it. </p>
+	
+	<div class="Sub_Heading">
+	<h3 style= "text-align:center">Glyphid Detonators</h3> 
+	</div>
+	<p style= "text-align:center">Red glyphids with no carapace that have yellowish/orange sacs caused by the exploder mutation. 
+	Highly dangerous. Resarchers are still trying to uncover the purpose of the exloder mutation.</p>
+	<div class="Sub_Heading">
+	<h4>Glpyhid Exploders</h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/f/f6/Glyphid_exploder.png/revision/latest/scale-to-width-down/700?cb=20200716131635" width="400" height="300" alt="Exploder">
+	<p>Grunt sized. Will explode when close to you as a sacrificial attempt to kill you and remove 
+	you as a threat to the swarm of bugs coming to your team. Stay away from them.</p>
+	<div class="Sub_Heading">
+	<h4>Glyphid Bulk Detonators</h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/f/fd/Glyphid_Bulk_Detonator.png/revision/latest/scale-to-width-down/1000?cb=20190317135602" width="400" height="300" alt="Bulk Detonator">
+	<p>Very large. The deadliest form of a glyphid you will likely encounter and is 
+	what happens when a detenator is able to survive for long enough. Noticeable by 
+	a distinct “laughter” if nearby.  Capable of doing more damage than a dreadnought, 
+	though not as quick or as healthy as a dreadnought. Very 
+	tough to take down. If you see one, try to put as much distance from you and it as 
+	possible. If you are forced to engage with one. Aim for its large yellow bulbs covering 
+	its body. Upon death, it will let out a massive explosion to try and take you with it. So, again,
+	DO NOT STAND CLOSE TO ONE! Unless your goal is an express ticket back to medbay. That is if your team is able to
+	recovers your remains.</p>
+	
+	<div class="Sub_Heading">
+	<h3 style= "text-align:center">Other Glyphids</h3>
+	</div>
+	<p style= "text-align:center">These are glyphids that don't fall under any variation catagories.</p>
+	<div class="Sub_Heading">
+	<h4>Glyhpid Menaces</h4>
+	</div>
+	<img src="https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/3/3a/Glyphid_Menace.png/revision/latest/scale-to-width-down/700?cb=20190317135643" width="400" height="300" alt="Menace">
+	<p>Light blue with light blue sacs to carry its acid. It typically 
+	fire a barrage of acid less potent than the acid spitter, 
+	but is incredibly lethal if all of its shots connect. Make a distinct gargling sound as they prepare to spit.
+	Aim for the sacs.</p>
+	<div class="Sub_Heading">
+	<h4>Glyphid Wardens</h4>
+	</div>
+	<img src="https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/e/ef/Glyphid_Warden.png/revision/latest/scale-to-width-down/700?cb=20190317135724" width="400" height="300" alt="Wardens">
+	<p>A new breed of glyphid that was recently discovered.
+	Wardens disburse energy that enhances nearby glyphids, making all of them more resilient. 
+	It has a white carapace, pink underbody, and a purple bulb that it uses to disburse its energy. 
+	Try to focus them down during swarms if present, the resiliency it 
+	provides nearby Glyphids is very noticeable.</p>
+	<div class="Sub_Heading">
+	<h4>Glyphid Swarmers</h4>
+	</div>
+	<img src="https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/5/50/Glyphid_swarmer.png/revision/latest?cb=20171114165935" width="400" height="300" alt="Swarmers">
+	<p>Swarmers are the smallest species of glpyhids we know of so far.
+	They act as larval stages to grunts. Despite being young, their teeth
+	are still razor sharp, still presenting themselves as a threat. Keep
+	in mind that your boots can also serve as an effective weapon against them.</p>
+	<div class="Sub_Heading">
+	<!-- I didn't learn this before resarching it but apperentley brood nexuses aren't glpyhids
+	so they won't exist here -->
+	<h4> Glyphid Dreadnoughts </h4>
+	</div>
+	<img src= "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/f/fb/Glyphid_Dreadnought.png/revision/latest/scale-to-width-down/700?cb=20200716213405" width="400" height="300" alt="Dreadnought">
+	<p>Possibly the scariest bugs that Hoxxes has thrown at us yet. Strong, Agile, and tough to take down
+	Their yellow, black and orange carapece is virutally industructable and unlike praetorians, dreadnoughts
+	have their bulbs encased with a softer shell. To make matters worse, dreadnoughts are capable of of rapidly regenerating the shell that covers their bulb.
+	As a Greenbeard, you will not be expected to go onto missions
+	with the intention of fighting them. Thus, our primary recommendation upon meeting a Dreadnought is simple: Run.</p>
+	<!-- I could go into the specific Dreadnoughts but you don't encounter
+	them in missions until you do the mission associated with them. so it feels
+	unecissary to do so. -->
+	<div class="Sub_Heading">
+	<h2 "text-align:center">Macteras</h2>
+	</div>
+	<p "text-align:center"> Mactera Aliens are insectoid creatures that are often seen flying around the caverns of Hoxxes IV.
+	They are typically characterized by their round bodies and glowing sacs that they use to store energy.</p>
+	
+	<div class="Sub_Heading">
+	<h3>Mactera Spawn</h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/c/c5/Mactera_spawn.png/revision/latest/scale-to-width-down/700?cb=20180604074938" width="400" height="300" alt="Mactera spawn">
+	<p>The most common type of mactera you will encounter.
+	When they get ready to spit their acid at you, they will bend back and
+	their bellies will begin to glow a brighter yellow. They are particulary vulnerable
+	when doing this, and it takes them a brief period of time to preform this action again.
+	You shouldn't underestimate them, as acid spit by a mactera spawn is still acid. </p>
+	
+	<div class="Sub_Heading">
+	<h3>Mactera Tri-jaws</h3> 
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/f/f4/Mactera_Tri-Jaw.png/revision/latest/scale-to-width-down/700?cb=20210205192729" width="400" height="300" alt="Mactera Tri-Jaw">
+	<p>A Mactera spawn that has mutated to have three trisected jaws that hoots three explosive
+	spines at once. They are pretty deadly and should be handled with care. Like all mactera,
+	it's attack is still easy to telegraph, but it has the ability to cover a greater area with its
+	attack. Very lethal if all  three shots are able to connect on an unexpecting dwarf.</p>
+	<div class="Sub_Heading">
+	<h3>Mactera Grabbers</h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/a/a9/Mactera_grabber.png/revision/latest/scale-to-width-down/700?cb=20181102071415" width="400" height="300" alt="Mactera Grabber">
+	<p>Possibly one of the most annoying and aggressive species found in Hoxxes.
+	They try to grab dwarves, take them to a high spot in the cavern, and crack them like a nut.
+	They are easily telegraphed by their loud screech before they attempt to grab something. If they
+	have a hold of somone, they will be sure to let you know. While carrying its prey, it is not known
+	to try and eat it, thus making them far more of a nuisance (but still dangerous).</p>
+	<div class="Sub_Heading">
+	<h3>Mactera Goo-Bombers </h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/b/b6/Mactera_goo_bomber.png/revision/latest/scale-to-width-down/700?cb=20181102071314" width="400" height="300" alt="Mactera Goo-Bomber">
+	<p>Mactera Goo-Bombers are the bloated, overweight cousin of the Mactera Spawn.
+	It flies slower than standard Mactera, but it carries two, large pulsating sacs of goo.
+	This goo is used by the Goo-Bomber to trap unsuspecting prey under it. These sacs
+	are highly vulnerable to gunfire (or pickaxes, but its not suggested). Just don't be under it when it pops.</p>
+	<div class="Sub_Heading">
+	<h3>Mactera Brundles </h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/2/29/Mactera_Brundle.png/revision/latest/scale-to-width-down/700?cb=20210205192644" width="400" height="300" alt="Mactera Brundle">
+	<p> Mactera spawn but they are heavly armored with dark scale plating all around its body.
+	Dispite this, it is still possible to see its belly light up when it gets ready to spit its
+	acid at you. Suprisingly resilient for a mactera, and is not afraid to get up close and personal with you.</p>
+	
+	<div class="Sub_Heading">
+	<h2 style="text-align:center">Naedocytes</h2>
+	</div>
+	<p style="text-align:center"> Naedocytes are less common than Mactera and Glyphids. Naedocytes not accompanied by a breeder are
+	exclusivley found in the Dense Biozone and the Glacial Strata. They are small, jellyfish-like creatures that attack by using
+	electric shocks. They are very frail however, a simple swing of your pickaxe will typically do the job. </p>
+	
+	<div class="Sub_Heading">
+	<h3>Naedocyte Shockers</h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/b/bf/Jelly_Shocker.png/revision/latest/scale-to-width-down/1000?cb=20190910114331" width="400" height="300" alt="Naedocyte Shocker">
+	<p>The standard Naedocyte you will see on your ventures through Hoxxes. Small, annoying, but deadly in large numbers.</p>
+	<div class="Sub_Heading">
+	<h3>Naedocyte Breeders</h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/f/f2/Naedocyte_Breeder.png/revision/latest/scale-to-width-down/700?cb=20190910113738" width="400" height="300" alt="Naedocyte Breeder">
+	<p>Breeders themselves are harmless. However, the Naedocyte Hatchlings that spawn from
+	the eggs it drops on the ground are not harmless. This makes any naedocyte Breeder kill on site.
+	They are resilent, however crafty swarves have learned that a single well-detonated cryo grenade is enough to freeze
+	the beast and make it shatter on the ground. </p>
+	<div class="Sub_Heading">
+	<h3>Naedocyte Hatchlings</h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/d/d1/Naedocyte_Hatchling.png/revision/latest/scale-to-width-down/700?cb=20190906114630" width="400" height="300" alt="Naedocyte Hacthling">
+	<p>Hatchlings usually are only found around areas where a breeder is nearby.
+	They are smaller than Shockers and are more purple than blue compared to shockers.
+	Despite being smaller, you should not underestimate them. They are deadly in 
+	high swarms.</p>
+	
+	<div class="Sub_Heading">
+	<h3>Naedocyte Cave Cruiser</h3>
+	</div>
+	<img src = "https://static.wikia.nocookie.net/deeprockgalactic_gamepedia_en/images/0/05/Jelly.png/revision/latest/scale-to-width-down/700?cb=20200721103558" width="400" height="300" alt="Naedocyte Cave Cruiser">
+	<p> Completley docile variants of Naedocytes. They can be found floating around the
+	Dense Biozone sucking up static charge in the air. Harmless. </p>
+	
+	<div class="Sub_Heading">
+	<h2 style="text-align:center">Others</h2>
+	</div>
+	<div class = "The_Links">
+	<p style="text-align:center">There other countless other creautres for you to find on your journey through the depths of Hoxxes.
+	However, we will not be listing all of them on this page. The Catalog was made to give you a quick and easy snip of information
+	to help you prepare for for your first expiditons. Dwarves eager to learn more about Hoxxes' natural wildlife are encouraged to 
+	read up on their  <a href= "https://deeprockgalactic.fandom.com/wiki/">Miner's Mannual.</a></p>
+	</div>
+	<p style="text-align:center">A good rule of thumb is that if it looks hostile, than treat it as such. </p>
+<!-- Sorry to all of the 2 deep rock fans but I'm not doubling this page length with all of the special variants
+and natural wildlife. I took it as enough to just go over the non-rival Tech/parsite creatures. What do you want me to say
+about maggots and Hexawing Gniffers? That they look funny? Maggots can defy the laws of physics?-->
+	
+<!-- This time I'm spending writing these nerd comments could be time
+spent making this layout not abhorrent to read. -->
+
+	
+<footer><i>© Ian Harrison 2023</i></footer>
+</body>
+</html>

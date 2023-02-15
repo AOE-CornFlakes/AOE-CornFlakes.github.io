@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head> 
+	<title>Hoxxes Catalog: HomePage</title>
+	<link rel="stylesheet" type="text/css" href="main.css" id="csslink">
+	<script>
+		function toggleCSS() {
+          
+          var currentCSS = document.getElementById('csslink');
+
+          
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+	</script>
+</head>
+
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="index.html" class="active">Home</a></li>
+			<li><a href="Beastiary.html">Beastiary</a></li>
+			<li><a href="Locations.html">Locations</a></li>
+		</ul>
+	</nav>
+	<button onclick="toggleCSS()" style="cursor:pointer">Alternate Style</button>
+</header>
+<main>
+	<div class="Main_Heading">
+	<h1 style="text-align:center"> The Hoxxes IV Catalog</h1>
+	</div>
+	<h2 style ="text-align:left"> Welcome Miners!</h2>
+	<p style="text-align:left">This website provided to you by Deep Rock Galatic© Was made to serve as a guide
+	to the dangerous depths of Hoxxes IV. There are many creatures and biomes for you to get accustomed too. It is of upmost importance
+	that you get up to speed as soon as possible so that you are ready to face the horrors that you signed up for!</p>
+	<p>After viewing this guide, you should:</p>
+<ul>
+	<li>Have a good grasp of the wild life</li>
+	<li>Know how to prepare entering into each biome</li>
+	<li>Not waste company reosources and time</li>	
+</ul>
+<p>Let's begin!</p>
+
+<p>If you are looking for information about what Deeprock provides you to fight these monsters, 
+or for more information about your new home, please vist these webpages:</p>
+<div class = "The_Links">
+<a href = "https://deeprockgalactic.fandom.com/wiki/Equipment">Equipment</a>
+<a href = "https://deeprockgalactic.fandom.com/wiki/Equipment">The Space Rig</a>
+<p> <em> All images, and location descriptions and details are taken from the Miner's Manual. You can locate the Miner's
+manual <a href= "https://deeprockgalactic.fandom.com/wiki/">here</a> </em></p>
+<a href = "https://www.deeprockgalactic.com/"> Play Deep Rock Galatic </a>
+</div>
+	
+	<footer><i>© Ian Harrison 2023</i></footer>
+	
+</main>
+</body>
