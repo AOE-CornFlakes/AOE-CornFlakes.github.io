@@ -53,6 +53,11 @@ img {
   background-color: black;
 }
 
+img:hover {
+opacity: 50%
+transition: opacity 1s;
+}
+
 .Main_Heading {
 		font-family: Arial, Helvetica, sans-serif;
 }
